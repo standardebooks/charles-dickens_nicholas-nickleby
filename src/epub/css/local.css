@@ -12,3 +12,8 @@
 [epub|type~="bridgehead"] i{
 	font-style: normal;
 }
+
+footer{
+	text-align: right;
+	border-top: 1em;
+}
