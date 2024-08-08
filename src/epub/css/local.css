@@ -23,7 +23,6 @@ footer{
 }
 
 /* Letter formatting */
-
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
