@@ -32,6 +32,9 @@
 		<dc:title id="title-short">Nicholas Nickleby</dc:title>
 		<meta property="title-type" refines="#title-short">short</meta>
 		<meta property="file-as" refines="#title-short">Nicholas Nickleby</meta>
+				<dc:title id="subtitle">Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</dc:title>
+		<meta property="file-as" refines="#subtitle">Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</meta>
+		<dc:title id="fulltitle">The Life and Adventures of Nicholas Nickleby, Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</dc:title>
 		<dc:subject id="subject-1">Boarding schools -- Fiction</dc:subject>
 		<dc:subject id="subject-2">England -- Social life and customs -- 19th century -- Fiction</dc:subject>
 		<dc:subject id="subject-3">England -- Fiction</dc:subject>
