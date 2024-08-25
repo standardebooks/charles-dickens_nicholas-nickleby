@@ -32,9 +32,12 @@
 		<dc:title id="title-short">Nicholas Nickleby</dc:title>
 		<meta property="title-type" refines="#title-short">short</meta>
 		<meta property="file-as" refines="#title-short">Nicholas Nickleby</meta>
-				<dc:title id="subtitle">Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</dc:title>
+		<dc:title id="subtitle">Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</dc:title>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<meta property="file-as" refines="#subtitle">Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</meta>
 		<dc:title id="fulltitle">The Life and Adventures of Nicholas Nickleby, Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</dc:title>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="file-as" refines="#fulltitle">Life and Adventures of Nicholas Nickleby, Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family, The</meta>
 		<dc:subject id="subject-1">Boarding schools -- Fiction</dc:subject>
 		<dc:subject id="subject-2">England -- Social life and customs -- 19th century -- Fiction</dc:subject>
 		<dc:subject id="subject-3">England -- Fiction</dc:subject>
@@ -62,7 +65,10 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A brother and sister, made destitute on the death of their father, struggle to succeed in life despite the callous indifference of their corrupt uncle.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Life and Adventures of Nicholas Nickleby&lt;/i&gt; tells the story of the eponymous hero and his sister Kate after the death of their father leaves them and their mother destitute and dependent on the support of their uncle Ralph Nickleby. The latter is a cold, hard man whose only interest is in amassing money and influence, and who has no empathy for the plight of his brother’s wife and children. Though he is very rich Ralph offers them almost nothing, other than arranging for Nicholas and Kate to be employed in degrading jobs and for their mother to live in a near-derelict house he owns. This disregard eventually turns into pure hatred on Ralph’s part after Nicholas thwarts some of his schemes. However, Nicholas and Kate eventually free themselves from Ralph’s malign influence and make a success of their lives.&lt;/p&gt;
+			&lt;p&gt;An important secondary character in the book is Smike, a boy in his late teens who Nicholas encounters at Dotheboys Hall, a Yorkshire school where Nicholas has been employed as an assistant teacher. Smike has been reduced to a pathetic wretch by years of ill-usage and half-starvation by the schoolmaster Mr. Squeers. Nicholas, taking pity on the boy, eventually leaves the school with Smike, who becomes his constant companion and friend in their subsequent adventures.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Nicholas Nickleby&lt;/i&gt; was the third novel written by &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens&lt;/a&gt;. Like his previous two novels, it was originally published in serial form, appearing in &lt;i&gt;Bentley’s Miscellany&lt;/i&gt; over 19 monthly installments from 1838 to 1839.&lt;/p&gt;
+			&lt;p&gt;One of the most popular of Dickens’ novels, &lt;i&gt;Nicholas Nickleby&lt;/i&gt; is full of a variety of interesting and amusing characters and incidents. It has been the basis of a great many successful adaptations for theatre, film and television. A stage adaptation by the Royal Shakespeare Company was videotaped and won an Emmy Award for Outstanding Miniseries in 1983. A film version directed by Stephen Whittaker for television in 2001 won a BAFTA award.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/967</dc:source>
