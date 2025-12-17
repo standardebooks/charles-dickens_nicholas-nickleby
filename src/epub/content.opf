@@ -68,7 +68,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/967</dc:source>
 		<dc:source>https://archive.org/details/cu31924013472562</dc:source>
-		<meta property="se:word-count">330029</meta>
+		<meta property="se:word-count">330026</meta>
 		<meta property="se:reading-ease.flesch">68.3</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Nicholas_Nickleby</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-dickens_nicholas-nickleby</meta>
