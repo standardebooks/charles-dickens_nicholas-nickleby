@@ -2,11 +2,13 @@
 <se-lint-ignore>
 	<file path="chapter-15.xhtml">
 		<ignore code="y-032">
+			<line>126</line>
 			<reason>The page scans show a single emphasised letter (an aspirated h) at the start of the word.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-42.xhtml">
 		<ignore code="t-076">
+			<line>31</line>
 			<reason>Letter is dialect and not a grapheme.</reason>
 		</ignore>
 	</file>
