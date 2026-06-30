@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-dickens/nicholas-nickleby</dc:identifier>
 		<dc:date>2024-08-29T20:55:08Z</dc:date>
 		<meta property="dcterms:modified">2024-08-29T20:55:08Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -57,7 +58,7 @@
 		<meta property="term" refines="#subject-7">sh2008109128</meta>
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh85101920</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A brother and sister, made destitute by the death of their father, struggle to succeed despite the callous indifference of their corrupt uncle.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Life and Adventures of Nicholas Nickleby&lt;/i&gt; tells the story of the eponymous hero and his sister Kate after the death of their father leaves them and their mother destitute and dependent on the support of their uncle Ralph Nickleby. The latter is a cold, hard man whose only interest is in amassing money and influence, and who has no empathy for the plight of his brother’s wife and children. Though he is very rich, Ralph offers them almost nothing, other than arranging for Nicholas and Kate to be employed in degrading jobs and for their mother to live in a near-derelict house he owns. This disregard eventually turns into pure hatred on Ralph’s part after Nicholas thwarts some of his schemes. Can Nicholas and Kate eventually free themselves from Ralph’s malign influence and make a success of their lives?&lt;/p&gt;
@@ -68,21 +69,23 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/967</dc:source>
 		<dc:source>https://archive.org/details/cu31924013472562</dc:source>
-		<meta property="se:word-count">325379</meta>
-		<meta property="se:reading-ease.flesch">68.3</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Nicholas_Nickleby</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-dickens_nicholas-nickleby</meta>
+		<meta property="schema:wordCount">325379</meta>
+		<meta property="schema:educationalLevel">68.3</meta>
+		<link href="https://en.wikipedia.org/wiki/Nicholas_Nickleby" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/charles-dickens_nicholas-nickleby" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Charles Dickens</dc:creator>
 		<meta property="file-as" refines="#author">Dickens, Charles</meta>
-		<meta property="se:name.person.full-name" refines="#author">Charles John Huffam Dickens</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_Dickens</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78087607</meta>
+		<meta property="schema:alternateName" refines="#author">Charles John Huffam Dickens</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Dickens" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78087607.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William Mulready</dc:contributor>
 		<meta property="file-as" refines="#artist">Mulready, William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Mulready</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79106102</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Mulready" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79106102.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Donald Lainson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lainson, Donald</meta>
@@ -92,7 +95,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -101,7 +104,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
