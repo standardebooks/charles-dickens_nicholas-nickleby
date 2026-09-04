@@ -34,13 +34,13 @@
 		<dc:title id="fulltitle">The Life and Adventures of Nicholas Nickleby, Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family</dc:title>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<meta property="file-as" refines="#fulltitle">Life and Adventures of Nicholas Nickleby, Containing a Faithful Account of the Fortunes, Misfortunes, Uprisings, Downfallings, and Complete Career of the Nickleby Family, The</meta>
-		<dc:subject id="subject-1">Boarding schools -- Fiction</dc:subject>
-		<dc:subject id="subject-2">England -- Social life and customs -- 19th century -- Fiction</dc:subject>
-		<dc:subject id="subject-3">England -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Boarding schools--Fiction</dc:subject>
+		<dc:subject id="subject-2">England--Social life and customs--19th century--Fiction</dc:subject>
+		<dc:subject id="subject-3">England--Fiction</dc:subject>
 		<dc:subject id="subject-4">Bildungsromans</dc:subject>
-		<dc:subject id="subject-5">Young men -- Fiction</dc:subject>
-		<dc:subject id="subject-6">Theatrical companies -- Fiction</dc:subject>
-		<dc:subject id="subject-7">Poor families -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Young men--Fiction</dc:subject>
+		<dc:subject id="subject-6">Theatrical companies--Fiction</dc:subject>
+		<dc:subject id="subject-7">Poor families--Fiction</dc:subject>
 		<dc:subject id="subject-8">Picaresque literature</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2007102067</meta>
